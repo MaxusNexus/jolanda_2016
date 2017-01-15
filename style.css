@@ -1,0 +1,148 @@
+*{
+	box-sizing:border-box;
+}
+
+
+html, body, ul
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background: #d1257e;
+	font-family: Lucida Fax, serif;
+	color:#333;
+}
+
+nav,
+section,
+footer
+{
+	max-width: 65%;
+	min-width: 40%;
+	width:60%;
+	margin: 0 auto;
+	display:block;
+}
+
+.text
+{
+	width: 100%;
+	height: 300px;
+	overflow:scroll;
+}
+
+header > center > a
+{
+	height:1em;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1em;
+
+}
+
+header > center
+{
+	margin:10px;
+}
+
+div > button
+{
+   display: inline-block;
+    padding: 10px;
+    height: 100%;
+	float:left;
+	margin: 20px;
+	display: block;
+	clear: left;
+}
+
+/*table {
+	font-size: 1em;
+	color: white;
+	table-layout: auto;
+    border-collapse: separate;
+    width: 100%;
+
+} 
+td {
+    border: 1px outset;
+	text-align: center;
+}
+.nav1 a:hover, a:active
+{
+	
+	float:center;
+	margin: 20px;
+	display: block;
+	width: 10%;
+    padding: 13px 22px;
+    box-sizing: border-box;
+
+
+	}
+.nav2 a:hover, a:active
+{
+	background-color: white;
+	float:center;
+	margin: 20px;
+	display: block;
+	width: 10%;
+    padding: 13px 22px;
+    box-sizing: border-box;
+
+}
+
+
+header::after
+{
+	content:"";
+	display: block;
+	clear:both;
+}*/
+
+.zoek{ 
+
+	float:right;
+
+}
+section
+{
+	margin:1em auto;
+	background:white;
+	box-sizing: border-box;
+	padding: 1px 1em;
+	border-radius: 3px;
+	color:#444444;
+}
+
+section > article
+{
+	background: #FEE;
+	color:#333;
+	padding:0.5em;
+	margin:-0.5em;
+	border-radius: 3px;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figure > img, figure > caption
+{
+	text-align:center;
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;
+}
+
+form > table
+{
+	margin: 0 auto;
+}
